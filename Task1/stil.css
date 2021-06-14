@@ -1,0 +1,116 @@
+p {
+    color: rgb(9, 6, 51);   
+    font-size: 30px;
+  }
+
+.formStyle {
+    height: 70px;
+    border: 0;
+}
+
+.buttonStyle {
+    border-radius: 35px;
+    width: 170px;
+    height: 55px;
+    background-image: linear-gradient(250deg, #4e95ed 0%, #03228f 100%);
+}
+
+#container{
+    display:flex;
+    justify-content:center;
+    padding:20px;
+    align-items:center; 
+  }
+  .box-one{
+    padding-top:5%;
+  }
+.contact-box {
+    background-image: linear-gradient(250deg, #4e95ed 0%, #03228f 100%);
+    padding: 80px 30px 80px 30px;
+    border-radius: 5px 5px 5px 5px;
+}
+.sec-title {
+    position: relative;
+}
+.mb-25 {
+    margin-bottom: 25px;
+}
+.mb-45 {
+    margin-bottom: 45px;
+}
+.md-mb-60 {
+    margin-bottom: 60px;
+}
+.sec-title .sub-text.new-text {
+    padding-left: 0;
+    margin-bottom: 7px;
+    color: #ffffff;
+}
+.sub-text {
+    position: relative;
+    padding-left: 95px;
+    display: inline-block;
+    line-height: 28px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #03228F;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.white-color {
+    color: #ffffff !important;
+}
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #101010;
+    margin: 0;
+}
+.address-box {
+    display: flex;
+}
+.address-icon {
+    background-image: linear-gradient(
+275deg
+, #ffffff 0%, #fcfcff 100%);
+    min-width: 48px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 23px;
+}
+.address-text{
+    
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 5px;
+}
+.label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 5px;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: 'Livvic';
+    font-weight: 400;
+}
+.desc{
+    font-weight: 400;
+}
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(0, 0, 0, 0.705);
+}
+.textareaStyle{
+    height: 150px;
+}
