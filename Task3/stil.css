@@ -1,0 +1,322 @@
+p {
+    color: rgb(9, 6, 51);   
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+
+.formStyle {
+    height: 70px;
+    border: 0;
+}
+
+.buttonStyle {
+    border-radius: 35px;
+    width: 170px;
+    height: 55px;
+    background-image: linear-gradient(250deg, #4e95ed 0%, #03228f 100%);
+}
+
+#container{
+    display:flex;
+    justify-content:center;
+    padding:20px;
+    align-items:center; 
+  }
+  .box-one{
+    padding-top:5%;
+  }
+.contact-box {
+    background-image: linear-gradient(250deg, #4e95ed 0%, #03228f 100%);
+    padding: 80px 30px 80px 30px;
+    border-radius: 5px 5px 5px 5px;
+}
+.sec-title {
+    position: relative;
+}
+.mb-25 {
+    margin-bottom: 25px;
+}
+.mb-45 {
+    margin-bottom: 45px;
+}
+.md-mb-60 {
+    margin-bottom: 60px;
+}
+.sec-title .sub-text.new-text {
+    padding-left: 0;
+    margin-bottom: 7px;
+    color: #ffffff;
+}
+.sub-text {
+    position: relative;
+    padding-left: 95px;
+    display: inline-block;
+    line-height: 28px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #03228F;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.white-color {
+    color: #ffffff !important;
+}
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #101010;
+    margin: 0;
+}
+.address-box {
+    display: flex;
+}
+.address-icon {
+    background-image: linear-gradient(
+275deg
+, #ffffff 0%, #fcfcff 100%);
+    min-width: 48px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 23px;
+}
+.address-text{
+    
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 5px;
+}
+.label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 5px;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: 'Livvic';
+    font-weight: 400;
+}
+.anew{
+    color: #000000be;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: 'Livvic';
+    font-weight: 400;
+}
+.desc{
+    font-weight: 400;
+}
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(0, 0, 0, 0.705);
+}
+.textareaStyle{
+    height: 150px;
+}
+
+.topbar-area {
+    padding-top: 15px;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-lg-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+.col-lg-10 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+}
+.rs-header {
+    position: relative;
+}
+.full-width-header {
+    position: relative;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.full-width-header .rs-header .menu-area .logo-area a img {
+    transition: 0.4s;
+    max-height: 40px;
+}
+.contact-info {
+    float: left;
+    text-align: left;
+    display: block;
+}
+
+.contact-part {
+    display: inline-block;
+
+    padding-right: 25px;
+    padding-left: 25px;
+    border-right: 1px solid #eee;
+    font-size: 14px;
+}
+.rs-contact-info{
+    display: inline-block;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-right: 1px solid #eee;
+    font-size: 14px;
+}
+.text-right {
+    text-align: right!important;
+}
+.contact-part{
+    float: left;
+    text-align: left;
+    display: block;
+}
+.spanStyle{
+    font-weight: bolder;
+    text-align: center;
+}
+img:before {
+    font-size: 26px;
+    color: #106eea;
+}
+.iconStyle{
+    width: 35px; 
+    font-size: 25px; 
+    color: rgb(0, 140, 255);
+}
+.menu-area {
+    transition: all 0.3s ease;
+    background-image: linear-gradient(
+90deg
+, #03228f 10%, #0e73e4 100%);
+}
+.full-width-header .rs-header .menu-area .rs-menu-area {
+    align-items: center;
+    justify-content: flex-end;
+    float: left;
+}
+.main-menu {
+    position: relative;
+}
+.rs-menu.rs-menu-close{
+    background: transparent;
+}
+
+.nav-link{
+    color: #ffffff;
+    font-weight: 700;
+}
+.social {
+    display: inline-block;
+    padding-right: 25px;
+    padding-left: 45px;
+    border-right: 1px solid #eee;
+    font-size: 14px;
+}
+.menu-area.sticky {
+    background: #fff;
+}
+.rs-footer {
+    background: url(https://rstheme.com/products/html/braintech/assets/images/bg/footer-bg.png);
+    background-color: #F5F6F9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.rs-footer .footer-top {
+    padding: 92px 0 65px;
+}
+.col-md-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.linew{
+    display: block; 
+    block-size: 40px;
+}
+.footer-a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 38px;
+    border-radius: 50%;
+    color: #555;
+    text-align: center;
+    font-size: 15px;
+    transition: all .8s ease;
+    background: rgba(255, 255, 255, 0.9);
+}
+.footer-part {
+    display: inline-block;
+    padding-right: 10px;
+}
+.footericon{
+    width: 35px; 
+    font-size: 25px; 
+    color: rgb(0, 140, 255);
+}
+.inputStyle{
+    border: none;
+    width: 148%;
+    font-size: 13px;
+    padding: 16px 60px 16px 20px;
+    margin: 0;
+    color: #0a0a0a;
+    overflow: hidden;
+    border-radius: 30px;
+    background: #fff;
+    box-shadow: 0 0 0px #eeeeee;
+    outline: 0;
+}
+.fbuttonStyle {
+    border: none;
+    border-radius: 35px;
+    width: 51px;
+    height: 51px;
+    background-image: linear-gradient(250deg, #4e95ed 0%, #03228f 100%);
+    color: rgb(255, 255, 255);
+
+}
+.y-middle {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.footer-bottom {
+    padding: 10px 0;
+    background: rgba(255, 255, 255, 0.4);
+}
+.order-last {
+    -ms-flex-order: 13;
+    order: 13;
+}
+.footerpoint{
+    display: inline-block;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-right: 1px solid rgb(24, 114, 233);
+}
